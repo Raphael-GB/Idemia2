@@ -81,7 +81,7 @@
                     { data: "Type" },
                     { data: "Site" },
                     { data: "DateInsertion" },
-                    { data: "LotName" },
+                    { data: "IdLot" },
                 ],
                 "sAjaxSource": 'Handlers/JsonArchivesHorsScope.ashx?filtre=' + $("#<%=ddlFiltres.ClientID%>").val(),
                 "fnDrawCallback": function () {
