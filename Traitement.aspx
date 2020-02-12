@@ -1221,7 +1221,6 @@
             if (!_wasPageCleanedUp) {
                 $.ajax({
                     type: 'GET',
-                    async: false,
                     url: 'Handlers/flagOccupation.ashx?docid=' + docid + '&valeur=',
                     success: function () {
                         _wasPageCleanedUp = true;
